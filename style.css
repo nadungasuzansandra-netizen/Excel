@@ -1,0 +1,120 @@
+ *{
+    color: blue;
+
+}
+.he{
+    color: brown;
+}
+img{
+    border-image: 5px solid red;
+    position: relative;
+    display: flex;
+    border-radius: 1000px;
+    max-height: 200px;
+    margin-left: 150px;
+    /* margin-top: 200px; */
+
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+.main{
+    width: 100;
+    background: url(images/back.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navibar{
+    width: 86%;
+    display: flex;
+    margin:auto ;
+    padding: 15px 0;
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+
+}
+.navibar.logo{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: -2%;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 120px;
+    padding: 2px 0; 
+    
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkblue;
+    margin-top: -2%
+}
+ul li a:hover{
+    color: rgb(10, 224, 64);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: blueviolet;
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color:orange;
+}
+.info a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    margin: 26px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.info a:hover{
+    background-color: green;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100PX;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.image:hover .girl{
+    left: 55%;
+}
+ 
